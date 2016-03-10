@@ -29,13 +29,6 @@ body {
     font-weight: 700;
 }
 
-.text-vertical-center h3 {
-    color: #fff;
-    padding: 5px;
-    background-color: black;
-    opacity: .75;
-}
-
 /* Custom Button Styles */
 
 .btn-dark {
