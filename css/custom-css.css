@@ -137,6 +137,47 @@
     font-weight: bold;
 }
 
+#numbers-line {
+  background-color: darkOrange;
+}
+
+#seo-results:hover {
+  /*opacity: .65;*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightSkyBlue;
+}
+
+#seo-page {
+  text-align: left;
+}
+
+.fact-box {
+  text-align: center;
+  height: 300px;
+}
+
+.fact-box i, h3, p {
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.fact-box:hover {
+  background-color: lightskyBlue;
+  color: black;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);  
+}
+
+.fact-box:hover i {
+  box-shadow: 5px, 5px, 5px, 5px;
+  color: black;
+}
+
+
 /* Custom for Screen Sizes */
 /*  min-Width: 768px */
 

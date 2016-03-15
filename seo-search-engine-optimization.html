@@ -11,6 +11,9 @@
 
     <title>Steve Kolock | SEO & SEM</title>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,7 +38,7 @@
 
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
+      <nav id="sidebar-wrapper">
         <ul class="sidebar-nav" role="tablist">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
@@ -52,9 +55,6 @@
             </li>
             <li>
                 <a href="seo-search-engine-optimization.html" onclick = $("#menu-close").click(); >SEO & SEM</a>
-            </li>
-            <li>
-                <a href="data-analytics.html" onclick = $("#menu-close").click(); >Data & Analytics</a>
             </li>
             <li>
                 <a href="resume.html" onclick = $("#menu-close").click(); >Resume</a>
@@ -74,27 +74,24 @@
             <a href="#about" class="btn btn-dark btn-lg">Learn More</a>
         </div>
     </header>
-    <section id="about" class="about">
-    <div class="tab-content">
+    <section id="about" class="about">        
     <!-- About -->        
-        <div role="tabpanel" class="tab-pane active" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Search Engine Optimization and Search Engine Marketing</h2>
-                        <p class="lead">The key to successful and high ROI SEO & SEM is targeting the right audience segments</p>
-                        <p>Lorum ipsum. 
-                        </p>
-                        <p>Lorum ipsum.
-                        </p>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Search Engine Optimization and Search Engine Marketing</h2>
+                    <p class="lead">The key to successful and high ROI SEO & SEM is targeting the right audience segments</p>
+                    <h4 id="seo-page">Search Engine Optimization</h4>
+                    <p id="seo-page">Search Engine Optimization is not just an essential part of your marketing strategy. It is also an opportunity for you to clearly define your brand and your audience. Recognize that many of the same technical requirements for SEO will help visitors to your site quickly find what they need.
+                    </p>
+                    <h4 id="seo-page">Pay-Per-Click Marketing</h4>                    
+                    <p id="seo-page">By focusing AdWords & BingAds targeting on brand keywords and keywords that you do not rank well for in Organic Search, you reduce the cost of your PPC campaigns while maximizing their ROI. Properly managed PPC campaigns contribute to your overall leads or sales, while also providing an essential feedback loop concerning the language your audience uses.</p>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
+            <!-- /.row -->
         </div>
-    </div>
-</section>
+        <!-- /.container -->
+    </section>
 
     <!-- <section id="about" class="about"> -->
 <!--         <div class="container">
@@ -113,32 +110,41 @@
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
         <div class="container">
-            <div class="media">
-              <div class="media-left media-middle">
-                <span class="fa-stack fa-4x">
-                    <img src="img/wordpress-icon.png" width="105px;" height="105px;">
-                    <i class="fa fa-square fa-stack-2x"></i>
-                    <i class="fa fa-wordpress fa-stack-1x text-primary"></i>
-                </span>
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Middle aligned media</h4>
-                ...
-              </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                    <div class="fact-box">
+                    <i class="fa fa-percent fa-4x text-inverse"></i>
+                        <div class=""><h3> Engaged Sessions</h3>
+                        <p>Increased Engaged Sessions by 80% YoY. Over 43,000 additional Engaged Sessions for Organic Search.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="fact-box">
+                    <i class="fa fa-users fa-4x text-inverse"></i>
+                        <div class=""><h3> More New Users</h3>
+                        <p>Increased Organic Search by 45% YoY, a total of 33,000+ more New Users over a five month period YoY.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="fact-box">
+                    <i class="fa fa-pencil-square-o fa-4x text-inverse"></i>
+                        <div class=""><h3> Lead Generation</h3>
+                        <p>Improved lead generation to increase site leads from 42 in 6 months to over 200/month.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="fact-box">
+                    <i class="fa fa-line-chart fa-4x text-inverse"></i>
+                        <div class=""><h3> White Hat SEO Only</h3>
+                        <p>New Users over LY went from 24/mo to 6,000+/mo through SEO with HTML/CSS &
+                        PHP 'white-hat' methods.</p>
+                        </div>
+                    </div>
+                </div>                
             </div>
-            <div class="media">
-              <div class="media-right media-middle">
-                <span class="fa-stack fa-4x">
-                    <img src="img/wordpress-icon.png" width="105px;" height="105px;">
-                    <i class="fa fa-square fa-stack-2x"></i>
-                    <i class="fa fa-wordpress fa-stack-1x text-primary"></i>
-                </span>
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading">Middle aligned media</h4>
-                ...
-              </div>
-            </div>            
           </div>
         <!-- /.container -->
         </section>
@@ -158,17 +164,15 @@
                     <h2>Search Engine Optimization</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="portfolio-item">
-                                <a data-toggle="modal" data-target="#concrete5-modal">
-                                    <img class="img-portfolio img-responsive" src="img/College_Custom_Page.png" width="100%" height="auto">
-                                </a>
+                                <img id="seo-results" class="img-portfolio img-responsive" src="img/AdWords_New_Users.png" width="100%" height="auto">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="portfolio-item">
                                 <a data-toggle="modal" data-target="#squarespace-modal">
-                                    <img class="img-portfolio img-responsive" src="img/Small_Business_Site.png"  width="100%" height="auto">
+                                    <img id="seo-results" class="img-portfolio img-responsive" src="img/SEO_Results_SERP.png"  width="100%" height="auto">
                                 </a>
                             </div>
                         </div>
@@ -239,48 +243,6 @@
                 </div>
             </div>
         </div>
-
-        <div id="concrete5-modal" class="modal fade" tabindex="-1" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title">Bootstrap in Concrete5</h2>
-              </div>
-              <div class="modal-body">
-                <img class="img-portfolio img-responsive" src="img/College_Custom_Page.png" width="100%" height="auto">
-                <br />
-                <h3><strong>Bootstrap, HTML/CSS, PHP, jQuery</strong></h3>
-                <p>College admissions templates and pages created to give a more lively and dynamic presence. Customization included the creation of a hover menu using PHP interacting with the Bootstrap framework. Other custom items include buttons that overlay the slider. All items are responsive.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <a href="contact.html"><button type="button" class="btn btn-primary">Contact Me</button></a>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-
-        <div id="squarespace-modal" class="modal fade" tabindex="-1" role="dialog">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title">Squarespace</h2>
-              </div>
-              <div class="modal-body">
-                <img class="img-portfolio img-responsive" src="img/Small_Business_Site.png" width="100%" height="auto">
-                <br />
-                <h3><strong>HTML/CSS</strong></h3>
-                <p>Small business website for a client. Created to display his craftsmanship and to get him leads.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <a href="contact.html"><button type="button" class="btn btn-primary">Contact Me</button></a>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
     </footer>
 
     <!-- jQuery -->
@@ -320,6 +282,7 @@
             }
         });
     });
+    
 
     // $(function(){
     //   $("#includeSidebarNav").load("sidebar-nav.html"); 
